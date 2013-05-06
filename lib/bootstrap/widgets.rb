@@ -1,4 +1,5 @@
 require "bootstrap/widgets/version"
+require "bootstrap/widgets/engine"
 
 module Bootstrap
   module Widgets
