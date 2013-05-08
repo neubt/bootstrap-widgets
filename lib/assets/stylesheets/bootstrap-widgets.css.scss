@@ -48,5 +48,16 @@
   &.comments {
     border-top: 1px dashed #ccc;
     padding: top;
+
+    &.comment {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #eef;
+    }
+
+    &.comments-hover {
+      .comment:hover {
+        background-color: #f5f5f5;
+      }
+    }
   }
 }
