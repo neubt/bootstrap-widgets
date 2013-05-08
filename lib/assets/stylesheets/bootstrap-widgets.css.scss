@@ -1,9 +1,13 @@
 @import "bootstrap/variables";
 
 .widget {
-  margin: 20px 0;
-  padding: 5px 10px;
   border-radius: 4px;
+  margin-bottom: 1em;
+  
+  &.widget-hover, &.widget-bordered,
+  &.widget-info, &.widget-warning, &.widget-success, &.widget-danger, &.widget-error {
+    padding: 5px 10px;
+  }
   
   &.widget-hover {
     &:hover {
@@ -16,20 +20,20 @@
   }
   
   &.widget-info {
-    background-color: #d9edf7;
-    border-color: #bce8f1;
+    background-color: $infoBackground;
+    border-color: $infoBorder;
   }
   &.widget-warning {
-    background-color: #fcf8e3;
-    border-color: #fbeed5;
+    background-color: $warningBackground;
+    border-color: $warningBorder;
   }
   &.widget-success {
-    background-color: #dff0d8;
-    border-color: #d6e9c6;
+    background-color: $successBackground;
+    border-color: $successBorder;
   }
   &.widget-danger, &.widget-error {
-    background-color: #f2dede;
-    border-color: #eed3d7;
+    background-color: $errorBackground;
+    border-color: $errorBorder;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -47,8 +51,7 @@
   }
 
   .widget-content {
-    margin-top: 20px;
-    padding: 10px;
+    margin: 1em 0;
   }
 
 }
