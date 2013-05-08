@@ -47,9 +47,9 @@
 
   &.comments {
     border-top: 1px dashed #ccc;
-    padding: top;
+    padding-top: 10px;
 
-    &.comment {
+    .comment {
       padding-bottom: 10px;
       border-bottom: 1px solid #eef;
     }
