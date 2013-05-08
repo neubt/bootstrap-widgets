@@ -44,4 +44,9 @@
     margin-top: 20px;
     padding: 10px;
   }
+
+  &.comments {
+    border-top: 1px dashed #ccc;
+    padding: top;
+  }
 }
