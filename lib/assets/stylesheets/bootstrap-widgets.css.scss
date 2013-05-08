@@ -3,20 +3,6 @@
   padding: 5px 10px;
   border-radius: 4px;
   
-  h1, h2, h3, h4, h5, h6 {
-    margin: 5px 0;
-  }
-  
-  ul {
-    margin: 0;
-    
-    li {
-      border-top: 1px solid #DDD;
-      list-style: none;
-      padding: 2px 4px;
-    }
-  }
-  
   &.widget-bordered {
     border: 1px solid #ddd;
   }
@@ -38,4 +24,21 @@
     border-color: #eed3d7;
   }
   
+  h1, h2, h3, h4, h5, h6 {
+    margin: 5px 0;
+  }
+  
+  ul {
+    margin: 0;
+    
+    li {
+      border-top: 1px solid #DDD;
+      list-style: none;
+      padding: 2px 4px;
+    }
+  }
+
+  .widget-content {
+    padding: 10px;
+  }
 }
